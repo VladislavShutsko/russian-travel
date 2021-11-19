@@ -1,0 +1,146 @@
+body {
+    background-color: #2A2C2F;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 28px 48px 56px 48px;
+    outline: 1px solid red;
+}
+
+.header__logo {
+    width: 176px;
+    height: 52px;
+}
+
+.header__lang-link {
+    display: flex;
+    font-family: "Inter";
+}
+
+.header__lang-link_ru {
+    margin-right: 18px;
+    color: #FFFFFF;
+}
+
+.header__lang-link_en {
+    color: #FFFFFF;
+}
+
+.lead {
+    margin: 0 148px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    outline: 1px solid red;
+}
+
+.lead__title {
+    font-size: 96px;
+    font-family: "Inter";
+    font-weight: 900;
+    line-height: 100px;
+    font-style: normal;
+    color: #FFFFFF;
+    margin: 0 280px 32px;
+    text-align: center;
+    outline: 1px solid red;
+}
+
+.lead__subtitle {
+    font-size: 30px;
+    font-family: "Inter";
+    font-weight: 400;
+    line-height: 36px;
+    font-style: normal;
+    color: #FFFFFF;
+    margin: 0 320px 64px;
+    text-align: center;
+    outline: 1px solid red;
+}
+
+.lead__image {
+    width: 100%;
+    outline: 1px solid red;
+}
+
+.lead__caption {
+    font-size: 10px;
+    font-family: "Inter";
+    font-weight: 400;
+    line-height: 14px;
+    font-style: normal;
+    color: #FFFFFF;
+    letter-spacing: 1.5px;
+    outline: 1px solid red;
+}
+
+.intro {
+    margin: 92px 442px 92px 148px;
+    display: flex;
+    outline: 1px solid red;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.intro__title {
+    font-size: 54px;
+    font-family: "Inter";
+    font-weight: 900;
+    line-height: 58px;
+    font-style: normal;
+    color: #FFFFFF;
+    outline: 1px solid red;
+}
+
+.intro__text {
+    font-size: 16px;
+    font-family: "Inter";
+    font-weight: 400;
+    line-height: 26.08px;
+    font-style: normal;
+    color: #FFFFFF;
+    margin-bottom: 33px;
+    outline: 1px solid red;
+}
+
+.intro__list {
+    list-style: none;
+    outline: 1px solid red;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-family: "Inter";
+    font-weight: 400;
+    line-height: 18px;
+    font-style: normal;
+    color: #FFFFFF;
+    width: 100%;
+}
+
+.photo-grid {
+    width: auto;
+    margin: 0 48px 92px;
+    outline: 1px solid red;
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(215px, 1fr));
+    justify-content: stretch;
+    gap: 15px;
+}
+
+.photo-grid__item {
+    overflow: hidden;
+    outline: 1px solid red;
+}
+
+.photo-grid__item_image {
+    width: 284px;
+    height: 213px;
+    outline: 1px solid red;
+    object-fit: cover;
+}
