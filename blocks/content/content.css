@@ -1,0 +1,9 @@
+.content {
+    max-width: 1184px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1184px;
+    row-gap: 92px;
+    justify-content: center;
+    width: 100%;
+}
