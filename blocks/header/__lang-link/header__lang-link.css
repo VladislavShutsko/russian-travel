@@ -8,13 +8,3 @@
     letter-spacing: 0em;
     text-align: right;
 }
-
-.header__lang-link_ru {
-    color: #FFFFFF;
-}
-
-.header__lang-link_en {
-    margin-left: 18px;
-    color: #FFFFFF;
-    text-decoration: none;
-}

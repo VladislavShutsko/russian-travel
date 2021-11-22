@@ -33,6 +33,8 @@
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__links/footer__links.css);
+@import url(../blocks/header/__lang-link/__en/header__lang-link__en.css);
+@import url(../blocks/header/__lang-link/__ru/header__lang-link__ru.css);
 @media screen and (max-width: 1120px) {
     .page {
         max-width: 1024px;
