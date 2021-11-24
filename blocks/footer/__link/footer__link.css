@@ -12,6 +12,12 @@
     color: white;
 }
 
+@media screen and (max-width: 940px) {
+    .footer__link {
+        margin-right: 12px;
+    }
+}
+
 @media screen and (max-width: 540px) {
     .footer__link {
         margin: 0;

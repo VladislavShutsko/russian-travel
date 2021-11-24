@@ -1,4 +1,5 @@
 .lead__title {
+    display: block;
     max-width: 720px;
     font-size: 96px;
     font-family: "Inter";
@@ -7,6 +8,13 @@
     font-style: normal;
     color: #FFFFFF;
     text-align: center;
+    word-wrap: break-word;
+}
+
+@media screen and (max-width: 960px) {
+    .lead__title {
+        max-width: 95%;
+    }
 }
 
 @media screen and (max-width: 540px) {

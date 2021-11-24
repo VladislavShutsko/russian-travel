@@ -4,6 +4,12 @@
     grid-area: website;
 }
 
+@media screen and (max-width: 960px) {
+    .website {
+        max-width: 100%;
+    }
+}
+
 @media screen and (max-width: 540px) {
     .website {
         max-width: 288px;
