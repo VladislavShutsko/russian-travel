@@ -3,3 +3,10 @@
     width: 50px;
     justify-content: space-between;
 }
+
+@media screen and (max-width: 540px) {
+    .header__lang-link {
+        font-size: 18px;
+        line-height: 20px;
+    }
+}

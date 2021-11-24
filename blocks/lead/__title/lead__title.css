@@ -8,3 +8,12 @@
     color: #FFFFFF;
     text-align: center;
 }
+
+@media screen and (max-width: 540px) {
+    .lead__title {
+        max-width: 288px;
+        font-size: 40px;
+        font-weight: 900;
+        line-height: 44px;
+    }
+}
