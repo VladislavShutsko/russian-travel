@@ -1,5 +1,5 @@
-.website__link {
-    font-family: "Inter";
+.place__website_link {
+    font-family: "Inter", Arial, sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -7,9 +7,9 @@
     letter-spacing: 0em;
     text-align: left;
     color: white;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
-.website__link:hover {
+.place__website_link:hover {
     opacity: .8;
 }

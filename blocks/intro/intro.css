@@ -1,14 +1,26 @@
 .intro {
-    margin: 0 0 0 100px;
+    margin: 0;
     max-width: 690px;
     display: flex;
+    align-self: flex-start;
     align-items: flex-start;
     flex-direction: column;
+    position: relative;
+    left: 148px;
+    top: 0;
+}
+
+@media screen and (max-width: 1120px) {
+    .intro {
+        left: 48px;
+        align-self: flex-start;
+    }
 }
 
 @media screen and (max-width: 960px) {
     .intro {
-        margin: 0 auto;
+        left: 0px;
+        margin: 0;
         max-width: 720px;
     }
 }
@@ -17,5 +29,6 @@
     .intro {
         margin: 0 auto;
         max-width: 288px;
+        align-self: center;
     }
 }
