@@ -1,5 +1,5 @@
 .photo-grid {
-    margin: 0 auto;
+    margin: 0;
     width: 100%;
     max-width: 1184px;
     display: grid;
@@ -9,11 +9,10 @@
 
 @media screen and (max-width: 1120px) {
     .photo-grid {
-        gap: 14px;
         max-width: 928px;
         align-self: center;
         justify-self: center;
-        margin: 0 0 0 48px;
+        gap: 14px;
     }
 }
 

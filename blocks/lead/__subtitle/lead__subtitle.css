@@ -1,3 +1,7 @@
+* {
+    outline: 1px solid red;
+}
+
 .lead__subtitle {
     max-width: 640px;
     font-size: 30px;
