@@ -1,13 +1,13 @@
 .places {
-    margin: 0 148px;
+    margin: 0 auto;
     display: grid;
     justify-content: flex-start;
-    grid-template-columns: 1fr;
+    grid-template-columns: 100%;
     row-gap: 80px;
     max-width: 984px;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1120px) {
     .places {
         max-width: 928px;
     }
@@ -15,9 +15,9 @@
 
 @media screen and (max-width: 960px) {
     .places {
-        margin: 0 24px;
         row-gap: 73px;
         max-width: 720px;
+        width: 100%;
     }
 }
 
